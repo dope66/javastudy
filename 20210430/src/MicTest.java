@@ -3,7 +3,7 @@ public class MicTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("¾Æ¾Æ ¿©±â´Â º»ºÎ Àßµé¾î°¬³ª? ¿À¹Ù ");
+		System.out.println("UTF-8ë¡œ ê¼­ ë°”ê¿”ì£¼ë„ë¡ í•˜ì ã…ã….. ");
 	}
 
 }
