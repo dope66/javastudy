@@ -23,10 +23,6 @@ public class Ex16Test {
 		}
 		map.clear();
 		System.out.println("map size " + map.size());
-		
-		
-		
-
 	}
 }
 //map 데이터 저장 : put(key,value) 
@@ -35,7 +31,7 @@ public class Ex16Test {
 //값을 가져올떄 : get(key);
 //모든 데이터 삭제 : clear();
 //특정값 삭제 : remove(key) remover(key, value)
-
+//키의 존재 여부 확인 : containsKey();
 
 
 
