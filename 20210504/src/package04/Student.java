@@ -5,7 +5,6 @@ public class Student {
 	public String name;
 
 	public Student(String sno, String name) {
-		super();
 		this.sno = sno;
 		this.name = name;
 	}

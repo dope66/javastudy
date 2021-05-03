@@ -31,7 +31,7 @@ public class Ex16Test {
 //값을 가져올떄 : get(key);
 //모든 데이터 삭제 : clear();
 //특정값 삭제 : remove(key) remover(key, value)
-//키의 존재 여부 확인 : containsKey();
+//키의 존재 여부 확인 : containsKey();true or false
 
 
 

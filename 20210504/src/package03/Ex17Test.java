@@ -21,7 +21,7 @@ public class Ex17Test {
 		map1.put(1, "김현우");
 		map1.put(2, "이현우");
 		map1.put(3, "박현우");
-		for(Integer i:map.keySet()) {
+		for(Integer i:map1.keySet()) {
 			String str1=map1.get(i);
 			System.out.println(str1);
 		}

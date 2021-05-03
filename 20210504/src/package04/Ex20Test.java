@@ -10,16 +10,15 @@ public class Ex20Test {
 		// TODO Auto-generated method stub
 		Map<String, Student> map = new HashMap<String, Student>();
 
-		Student std = new Student("1234567", "김현우");
-		map.put("id", std);
-		std = new Student("167", "이현우");
-		map.put("id1", std);
-		std = new Student("7", "최현우");
-		map.put("id2", std);
+		Student std = new Student("1q2w3e4r", "김현우");
+		map.put("qhsqn", std);
+		std = new Student("1q2w3e", "이현우");
+		map.put("qhsqn1", std);
+		std = new Student("1q2w", "최현우");
+		map.put("qhsqn2", std);
 
 		Scanner sc = new Scanner(System.in);
-		while(true)
-		{
+		while (true) {
 			System.out.println("아이디와 비밀번호를 입력해주세요 ");
 			System.out.print("ID : ");
 			String id = sc.nextLine();
@@ -38,7 +37,5 @@ public class Ex20Test {
 				System.out.println("아이디가 존재 하지 않습니다.");
 			}
 		}
-
 	}
-
 }

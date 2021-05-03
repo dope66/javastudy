@@ -2,9 +2,7 @@ package package03;
 
 import java.util.HashMap;
 import java.util.Map;
-
 public class Ex18Test {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Map<Integer, String> map=new HashMap<Integer, String>();
@@ -16,9 +14,8 @@ public class Ex18Test {
 		map.remove(3);
 		System.out.println(map.keySet());
 		
-		
-		
-		
+		for(Integer i:map.keySet()) {
+			System.out.println(map.get(i));
+		}
 	}
-
 }

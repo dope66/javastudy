@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Ex01 {
 
-		Scanner sc=new Scanner(System.in);
 		public void gugu(int startdan ,int enddan,int startgop ,int endgop)
 		{
 			for(int dan=startdan;dan<=enddan;dan++)
