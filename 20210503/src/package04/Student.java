@@ -1,10 +1,10 @@
 package package04;
 
 public class Student {
-	public int sno;
+	public String sno;
 	public String name;
 
-	public Student(int sno, String name) {
+	public Student(String sno, String name) {
 		super();
 		this.sno = sno;
 		this.name = name;
